@@ -1,0 +1,71 @@
+.App {
+  background-color: #282c34;
+  color: white;
+  /* height: 10000px; */
+  min-height: 100vh;
+}
+
+
+/* Start Global Rules */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Cairo', sans-serif;
+}
+
+/* Rest Some properties */
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none !important;
+
+}
+
+ul {
+  padding-left: 0%;
+}
+
+/* Start Header */
+.header {
+  left: 50%;
+  transform: translateX(-50%);
+  background: #2b2c2f69;
+  z-index: 3;
+}
+
+.navTabs {
+  gap: 20px;
+}
+
+/* MovieDetails */
+.movieDetails li {
+  color: rgb(255, 166, 0);
+  font-size: 20px;
+}
+
+/* MovieCard */
+/* .FavIconHeart {
+  right: 20px;
+  bottom: 51px;
+  font-size: 25px;
+  color: gray;
+  cursor: pointer;
+} */
+.movieCardTitle {
+  min-height: 40px;
+}
+
+/* Home page */
+.home {
+  font-size: 60px;
+  text-align: center;
+  padding-top: 300px;
+}
